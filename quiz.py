@@ -33,4 +33,5 @@ for question in questions:
    Questuon_number+=1
    
 print("---------------------------------------------------------------")
+print("  Results       ")
 print(f"Result: {Score} out of {len(questions)}")
