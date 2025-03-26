@@ -35,3 +35,10 @@ for question in questions:
 print("---------------------------------------------------------------")
 print("  Results       ")
 print(f"Result: {Score} out of {len(questions)}")
+print()
+print("Your answer:")
+for guess in guesses:
+   print(guess, end="")
+print("Correct answer:")
+for answer in answers:
+   print(answer, end="")
