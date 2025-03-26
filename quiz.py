@@ -38,7 +38,8 @@ print(f"Result: {Score} out of {len(questions)}")
 print()
 print("Your answer:")
 for guess in guesses:
-   print(guess, end="")
+   print(guess, end=" ")
+print()
 print("Correct answer:")
 for answer in answers:
-   print(answer, end="")
+   print(answer, end=" ")
